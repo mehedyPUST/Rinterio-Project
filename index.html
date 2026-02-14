@@ -37,7 +37,7 @@
         <!-- brand-name -->
 
         <div class=" flex items-center gap-2 ">
-            <span class="bg-[#ABEF5F] w-8 h-8 rounded-full -rotate-45 inline-flex items-center justify-center">
+            <span class="bg-[#ABEF5F] w-8 h-8 rounded-full -rotate-45 flex items-center justify-center">
                 <i class="fa-solid fa-arrow-right"></i>
             </span>
             <h2 class=" font-extrabold text-[28px] md:text-[32px] flex items-center gap-2"> Rinterio </h2>
@@ -92,7 +92,7 @@
 
     <!-- hero section  -->
 
-    <section>
+    <section class=" pb-5 md:pb-10">
         <div class="hero-container w-[92vw] lg:w-[81vw] mx-auto flex flex-col items-center text-center space-y-6 ">
 
             <img src="./assets/banner.png" alt="">
@@ -123,19 +123,22 @@
     <!-- about section  -->
 
 
-    <section class=" about-section ">
-        <div
-            class="about container  w-[92vw] lg:w-[81vw] mx-auto  flex flex-col-reverse md:flex-row justify-between gap-9">
+    <section class=" about-section  w-full bg-green-100 pt-5 md:pt-20 ">
+        <div class="about container  w-[92vw] lg:w-[81vw] mx-auto  flex flex-col lg:flex-row justify-between gap-9">
 
-            <div class="bg-green-200 border border-amber-600 space-y-6 ">
-                <div>
-                    <p class="bg-white rounded-2xl py-1 px-4 w-32"> <i class="fa-solid fa-arrow-right"></i> About Us</p>
-                    <h2 class=" text-[40px] font-bold">We design thoughtful, <br> liveable spaces</h2>
+            <div class=" space-y-4 ">
+                <div class="text-center lg:text-left">
+                    <p
+                        class="bg-white rounded-2xl py-1 px-4 w-32 inline-flex justify-center items-center gap-2 lg:block ">
+                        <i class="fa-solid fa-arrow-right"></i> About Us
+                    </p>
+                    <h2 class=" text-[40px] font-extrabold">We design thoughtful, <br class="hidden lg:inline"> liveable
+                        spaces</h2>
                     <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                         weathered wood, sleek metal accents.</p>
                 </div>
-                <div class="space-y-6">
-                    <div class="flex gap-2.5 items-center p-6 border border-b-fuchsia-700">
+                <div class="space-y-4 md:space-y-0 lg:space-y-5  md:flex  md:gap-4   lg:block ">
+                    <div class="flex gap-4 items-center p-6  bg-white rounded-xl">
                         <div>
                             <img src="./assets/commercial.png" alt="">
 
@@ -148,7 +151,7 @@
                         </div>
                     </div>
 
-                    <div class="flex gap-2.5 items-center  p-6 border border-b-fuchsia-700">
+                    <div class="flex gap-4 items-center  p-6  bg-white rounded-xl">
                         <div>
                             <img src="./assets/residential.png" alt="">
 
@@ -164,8 +167,8 @@
 
             </div>
 
-            <div class="bg-amber-600">
-                <img src="./assets/Rectangle.png" alt="">
+            <div class="">
+                <img class="w-full h-full" src="./assets/Rectangle.png" alt="">
 
             </div>
 
